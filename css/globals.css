@@ -1,0 +1,80 @@
+/* css/globals.css */
+@import url('https://fonts.googleapis.com/css2?family=Fugaz+One&family=Fraunces:wght@400&display=swap');
+
+:root {
+    --primary-black: #000000;
+    --primary-gold: #ceb33e;
+    --primary-white: #ffffff;
+}
+
+html {
+    font-size: 15px;
+    font-family: 'Fraunces', serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: var(--primary-black);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fugaz One', serif;
+    font-weight: 400;
+    margin: 0;
+    color: var(--primary-black);
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.2rem;
+}
+
+h5 {
+    font-size: 1rem;
+}
+
+h6 {
+    font-size: 0.9rem;
+}
+
+p {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+    margin-bottom: 1rem;
+}
+
+small {
+    font-size: 0.875rem;
+}
+
+a {
+    color: var(--primary-black);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--primary-gold);
+}
+
+button {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+}
+
+input, textarea, select {
+    font-family: 'Fraunces', serif;
+    font-weight: 400;
+}
