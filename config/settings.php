@@ -3,9 +3,9 @@
 session_start();
 
 
-define("SQL_HOST", "localhost");
+define("SQL_HOST", "db");
 define("SQL_USER","root");
-define("SQL_PASS","");
+define("SQL_PASS","root");
 define("SQL_DBNAME","dinoscroll");
 
 try {
